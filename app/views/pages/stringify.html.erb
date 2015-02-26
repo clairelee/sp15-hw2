@@ -1,6 +1,6 @@
 
 <% if params[:name].blank? or params[:adjective].blank? %>
-	<h1>You are nothing!</h1>
+	<h1><%= @text %></h1>
 <% else %>
 	<%= params[:name] %> is so <%= params[:adjective] %>
 <% end %>
